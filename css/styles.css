@@ -4,6 +4,10 @@ body {
   color: rgb(5,74,105);
 }
 
+.icon-bar {
+  background-color: rgb(5,74,105) !important;
+}
+
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -48,6 +52,7 @@ ul.nav a:hover {
 
 .nav-login {
   border: 1px solid rgb(5,74,105);
+  max-width: 75px;
 }
 
 .features {
@@ -58,6 +63,12 @@ ul.nav a:hover {
 
 .platform-blurb {
   font-weight: 100;
+  padding-bottom: 15px;
+}
+
+.who-we-serve-padding {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .footer-style {
@@ -67,6 +78,19 @@ ul.nav a:hover {
   margin-bottom: 0;
 }
 
-.footer-style a {
+.footer-style a, ul {
   color: #fff;
+  padding-left: 0px;
 }
+
+.footer-right {
+  float: right !important;
+  text-align: right !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .footer-right {
+    float: left !important;
+    text-align: left !important;
+  }
+  } /* min-width 641px, medium screens */
