@@ -21,9 +21,9 @@ title: Signal Health Partners
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/#platform">Our Platform</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="http://app.signalhealthpartners.com">Log in</a></li>
+                    <li class="nav-button"><a class="nav-button" href="#platform">Our Platform</a></li>
+                    <li class="nav-button"><a class="nav-button" href="#demo">Contact</a></li>
+                    <li class="nav-button"><a class="nav-button nav-login" href="http://app.signalhealthpartners.com">Log in</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -41,7 +41,7 @@ title: Signal Health Partners
                     <div class="bgimage-text">
                         <h1>Faster Transfers.</h1>
                         <h1>Better Care.</h1>
-                        <h3>Our Transfer Platform Connects Referring Physicians with Accepting Hospitals</h3>
+                        <h3 style="font-weight: 100;">Our Transfer Platform Connects Referring Physicians with Accepting Hospitals</h3>
                     </div>
                 </div>
               </div>
@@ -52,61 +52,63 @@ title: Signal Health Partners
 
     <!-- Headline -->
     <div class="container">
-
         <div class="row">
             <div class="col-lg-2"></div>
             <div class="col-lg-8 main-headline lead text-center">
-                <h3>We help streamline the process of transferring cticial patients to hospitals where they can get the care they need.</h3>
+                <h3>We help streamline the process of transferring critical patients to hospitals where they can get the care they need.</h3>
             </div>
             <div class="col-lg-2"></div>
         </div>
     </div>
     <!-- End Headline -->
 
-    <div class="features">
+    <section class="features"  id="platform">
         <div class="container">
-            <div class="row">
+            <div class="row features">
                 <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <!-- <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-check"></i>Speed</h4>
-                        </div> -->
-                        <div class="panel-body">
-                            <h3>Speed</h3>
-                            <p>Streamlining the transfer of demographic data saves physicians hours on the phone</p>
-                        </div>
-                    </div>
+                    <div>
+                      <!-- <div class="panel-heading">
+                          <h4><i class="fa fa-fw fa-check"></i>Speed</h4>
+                      </div> -->
+                      <div>
+                          <h2>Speed</h3>
+                            <hr></hr/>
+                          <h4 style="font-weight: 100;">Streamlining the transfer of demographic data saves physicians hours on the phone</p>
+                      </div>
+                  </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
+                    <div>
                         <!-- <div class="panel-heading">
                             <h4><i class="fa fa-fw fa-check"></i>Access</h4>
                         </div> -->
-                        <div class="panel-body">
-                            <h3>Access</h3>
-                            <p>Notifying dozens of hospitals simultaneously.</p>
+                        <div>
+                            <h2>Access</h3>
+                              <hr></hr/>
+                            <h4 style="font-weight: 100;">Notifying dozens of hospitals simultaneously.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
+                    <div>
                         <!-- <div class="panel-heading">
                             <h4><i class="fa fa-fw fa-check"></i>Quality</h4>
                         </div> -->
-                        <div class="panel-body">
-                            <h3>Quality</h3>
-                            <p>Partnering with accepting hospitals to get our patients to centers of excellence.</p>
+                        <div>
+                            <h2>Quality</h3>
+                              <hr></hr/>
+                            <h4 style="font-weight: 100;">Partnering with accepting hospitals to get our patients to centers of excellence.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- /.row -->
-    </div> <!-- End Features -->
+    </section> <!-- End Features -->
 
     <!-- Platform Description -->
 
-    <div class="row" id="platform">
+    <div class="row">
         <div class="col-lg-12 platform">
             <div class="container">
                 <div class="row">
@@ -114,8 +116,8 @@ title: Signal Health Partners
                     <div class="col-md-3">
                         <div class="highlight-blurb">
                             <h1>Our Platform</h1>
-                            <hr>
-                            Our online transfer platform allows critial patients to receive the care they need as soon as possible.
+                            <hr style="color: rgb(5,74,105);"></hr>
+                            <h4 class="platform-blurb">Our online transfer platform allows critial patients to receive the care they need as soon as possible.</h4>
                         </div>
                     </div>
                     <div class="col-md-8 text-center">
@@ -129,20 +131,22 @@ title: Signal Health Partners
 
     <!-- Who we serve description -->
 
-    <div class="row">
-        <div class="col-sm-6">
-            <img src="{{ site.baseurl }}/assets/B.jpeg" class="img-responsive">
-        </div>
-        <div class="col-sm-6 who-we-serve">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2 highlight-blurb">
-                    <h1>Who We Serve</h1>
-                    <hr>
-                    Our transfer platform was created with rural patients in mind, helping to give them the access to care they deserve.
-                </div>
-            </div>
-        </div>
-    </div>
+    <section class="who-we-serve">
+      <div class="row">
+          <div class="col-sm-6">
+              <img src="{{ site.baseurl }}/assets/B.jpeg" class="img-responsive">
+          </div>
+          <div class="col-sm-6">
+              <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 highlight-blurb">
+                      <h1>Who We Serve</h1>
+                      <hr>
+                      <h4 class="platform-blurb">Our transfer platform was created with rural patients in mind, helping to give them the access to care they deserve.</h4>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
 
     <!-- Schedule Demo -->
 
@@ -151,7 +155,7 @@ title: Signal Health Partners
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2" >
-                      <h5>Schedule A Demo</h>
+                      <h1>Schedule A Demo</h1>
                       <hr>
                       <form action="https://formspree.io/aalap@signalhealthpartners.com"
                          method="POST">

@@ -1,0 +1,72 @@
+body {
+  font-family: 'Athiti', sans-serif;
+  background-color: transparent;
+  color: rgb(5,74,105);
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-brand {
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+.nav-button {
+  margin-top: 5px;
+  color: rgb(5,74,105);
+  background-color: white;
+  /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 10px;
+    transition:.5s;
+}
+
+.nav-login:hover {
+  border: 1px solid rgb(64,145,190) !important;
+}
+
+ul.nav a:hover {
+  color: rgb(64,145,190) !important;
+  background-color: transparent !important;
+}
+
+.nav-login {
+  border: 1px solid rgb(5,74,105);
+}
+
+.features {
+  color: white;
+  background-color: rgb(64,145,190);
+  padding: 15px;
+}
+
+.platform-blurb {
+  font-weight: 100;
+}
+
+.footer-style {
+  color: #fff;
+  background-color: rgb(64,145,190);
+  padding: 50px;
+  margin-bottom: 0;
+}
+
+.footer-style a {
+  color: #fff;
+}
