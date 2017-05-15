@@ -16,8 +16,8 @@
 title: Signal Health
 email:
 description:
-baseurl: "/sh-marketing" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://signalhealthpartners.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
