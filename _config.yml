@@ -17,7 +17,7 @@ title: Good Medicine
 email:
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://goodmedicinemd.com/" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
