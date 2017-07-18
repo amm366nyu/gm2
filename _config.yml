@@ -16,8 +16,8 @@
 title: Good Medicine
 email:
 description:
-baseurl: "/gm-marketing" # the subpath of your site, e.g. /blog
-url: "http://ventretech.github.io/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://locums.signalhealthpartners.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
